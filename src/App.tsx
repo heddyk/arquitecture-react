@@ -40,15 +40,15 @@ function App(): JSX.Element {
   return (
     <Container>
       <ThemeProvider theme={darkState ? dark : light}>
-        <CssBaseline />
+        <Router>
+          <CssBaseline />
 
-        <Header changeTheme={handleThemeChange} darkState={darkState} />
+          <Header changeTheme={handleThemeChange} darkState={darkState} />
 
-        <BackgroundDiv>
-          <Router>
+          <BackgroundDiv>
             <RouterConfig />
-          </Router>
-        </BackgroundDiv>
+          </BackgroundDiv>
+        </Router>
       </ThemeProvider>
     </Container>
   )
