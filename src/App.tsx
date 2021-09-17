@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 /* Fonte */
 import 'fontsource-roboto'
@@ -8,18 +8,18 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { RouterConfig } from './routing/RouterConfig'
 
 /* Css padrão */
-import './App.css';
+import './App.css'
 
 /* Provider responsavel por gerenciar os temas em toda a aplicação */
-import { ThemeProvider } from '@material-ui/core/styles';
+import { ThemeProvider } from '@mui/material/styles'
 /* Temas customizados */
-import { dark, light } from './styles/themes';
+import { dark, light } from './styles/themes'
 
-import { Button } from '@material-ui/core';
+import { Button } from '@mui/material'
 
-import { styled } from '@material-ui/core/styles'
+import { styled } from '@mui/material/styles'
 
-import CssBaseline from '@material-ui/core/CssBaseline';
+import CssBaseline from '@mui/material/CssBaseline'
 
 const BackgroundDiv = styled('div')(({ theme }) => ({
   width: '100%',
@@ -40,18 +40,15 @@ function App(): JSX.Element {
         <BackgroundDiv>
           <h1>Hello</h1>
 
-          <Button onClick={handleThemeChange}>
-            Trocar tema
-          </Button>
+          <Button onClick={handleThemeChange}>Trocar tema</Button>
 
           <Router>
             <RouterConfig />
           </Router>
         </BackgroundDiv>
-
       </ThemeProvider>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
