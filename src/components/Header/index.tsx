@@ -44,7 +44,7 @@ export const Header: React.FC<HeaderProps> = ({
         </Button>
       </ButtonGroup>
       <Button variant="outlined" onClick={changeTheme}>
-        {darkState ? <DarkMode /> : <LightMode />}
+        {darkState ? <LightMode /> : <DarkMode />}
       </Button>
     </Container>
   )

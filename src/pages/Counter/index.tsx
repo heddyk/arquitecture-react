@@ -23,6 +23,7 @@ export const Counter = (): JSX.Element => {
       <Typography
         variant="h1"
         component="div"
+        data-testid="display-counter"
         className={
           counter > 0
             ? 'counter--increment'
@@ -38,10 +39,18 @@ export const Counter = (): JSX.Element => {
         variant="outlined"
         aria-label="Grupo de botões para controle do contador"
       >
-        <Button variant="outlined" onClick={() => setCounter(counter - 1)}>
+        <Button
+          variant="outlined"
+          data-testid="button-decrement"
+          onClick={() => setCounter(counter - 1)}
+        >
           Decrementar (-1)
         </Button>
-        <Button variant="outlined" onClick={() => setCounter(counter + 1)}>
+        <Button
+          variant="outlined"
+          data-testid="button-increment"
+          onClick={() => setCounter(counter + 1)}
+        >
           Incrementar (+1)
         </Button>
       </ButtonGroup>
