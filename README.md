@@ -11,10 +11,10 @@ Arquitetura React fácil e escalável.
 <!--ts-->
 
 - [Tabela de Conteudo](#tabela-de-conteudo)
-- [Instalação](#instalacao)
+- [Instalação](#Instalação)
 - [Comandos](#Comandos)
-- [Referências](#referencias)
-- [Bibliotecas](#bibliotecas)
+- [Referências](#Referências)
+- [Tecnologias](#Tecnologias)
 <!--te-->
 
 ### Instalação
@@ -49,9 +49,12 @@ Arquitetura React fácil e escalável.
 
 [https://saurabhshah23.medium.com/react-js-architecture-features-folder-structure-design-pattern-70b7b9103f22](https://saurabhshah23.medium.com/react-js-architecture-features-folder-structure-design-pattern-70b7b9103f22)
 
-### Bibliotecas
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
 
 - React
+- Typescript
 - React router dom
 - Material-ui
 - React testing library
