@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Arquitetura React + React route dom + Material-ui + Testes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Arquitetura React fácil e escalável.
 
-## Available Scripts
+<h4 align="center"> 
+	🚀 Concluído
+</h4>
 
-In the project directory, you can run:
+## Tabela de conteúdos
 
-### `yarn start`
+<!--ts-->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Tabela de Conteudo](#tabela-de-conteudo)
+- [Instalação](#instalacao)
+- [Comandos](#Comandos)
+- [Referências](#referencias)
+- [Bibliotecas](#bibliotecas)
+<!--te-->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Instalação
 
-### `yarn test`
+```bash
+  git clone https://github.com/heddyk/arquitecture-react.git novo-projeto
+  cd novo-projeto
+  npm install
+  npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Comandos
 
-### `yarn build`
+- `npm start` - Inicia a aplicação em modo de desenvolvimento
+- `npm run build` - Gera um projeto em modo de produção
+- `npm run test` - Inicia os testes
+- `npm run lint` - Inicia o eslint e corrige os arquivos dentro do src
+- `npm run format` - Inicia o prettier e corrige os arquivos dentro do src
+- `npm run analyze` - Cria um projeto em modo de produção e inicia uma aplicação para analise de bundle
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Referências
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[https://pt-br.reactjs.org/](https://pt-br.reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[https://create-react-app.dev/docs/documentation-intro](https://create-react-app.dev/docs/documentation-intro)
 
-### `yarn eject`
+[https://testing-library.com/docs/](https://testing-library.com/docs/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[https://mui.com/](https://mui.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[https://axios-http.com/ptbr/docs/instance](https://axios-http.com/ptbr/docs/instance)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[https://saurabhshah23.medium.com/react-js-architecture-features-folder-structure-design-pattern-70b7b9103f22](https://saurabhshah23.medium.com/react-js-architecture-features-folder-structure-design-pattern-70b7b9103f22)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Bibliotecas
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React
+- React router dom
+- Material-ui
+- React testing library
+- Axios
+- Emotion
+- Eslint
+- Prettier
